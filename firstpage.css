@@ -1,0 +1,159 @@
+body{
+    background-color: black;
+}
+@keyframes hard_animation{
+    0%{color: black;}
+    50%{color: red;}
+    100%{color: black;}
+
+}
+
+@keyframes beginner_animation{
+    0%{color: black;}
+    50%{color: green;}
+    100%{color: black;}
+
+}
+@keyframes medium_animation{
+    0%{color: black;}
+    50%{color: coral;}
+    100%{color: black;}
+
+}
+#beginnerTitle{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 6vw;
+    animation-name: beginner_animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position:relative;
+    left: 17vw;
+    top: -55vw;
+
+}
+#box{
+    background-color: whitesmoke;
+    width: 80vw;
+    height: 60vw;
+    border-radius: 10%;
+    position: relative;
+    left: 10vw;
+    top: 20vw;
+    
+
+}
+#header{
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 7vw;
+    position: relative;
+    top: -60vw;
+
+}
+#beginner1{
+    color: black;
+    font-family: 'Segoe UI', Tahoma,Verdana, sans-serif;
+    font-size: 3vw;
+    position: relative;
+    left: 17vw;
+    top: -58vw;
+}
+#beginner2{
+    color: black;
+    font-family: 'Segoe UI', Tahoma,Verdana, sans-serif;
+    font-size: 3vw;
+    position: relative;
+    left: 17vw;
+    top: -57vw;
+}
+#beginner3{
+    color: black;
+    font-family: 'Segoe UI', Tahoma,Verdana, sans-serif;
+    font-size: 3vw;
+    position: relative;
+    left: 17vw;
+    top: -56vw;
+}
+#box2{
+    background-color: whitesmoke;
+    width: 80vw;
+    height: 60vw;
+    border-radius: 10%;
+    position: relative;
+    left: 10vw;
+    top: -45vw;
+}
+#medium1{
+    font-size: 3vw;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    position: relative;
+    left: 17vw;
+    top: -109vw;
+}
+#medium2{
+    font-size: 3vw;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    position: relative;
+    left:17vw;
+    top:-109vw;
+}
+#medium3{
+    font-size: 3vw;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    position: relative;
+    left: 17vw;
+    top: -109vw;
+}
+#mediumTitle{
+    font-size: 6vw;
+    font-family: 'Courier New', Courier, monospace;
+    animation-name: medium_animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: relative;
+    left: 17vw;
+    top: -105vw;
+}
+#box3{
+    background-color: whitesmoke;
+    width: 80vw;
+    height: 60vw;
+    border-radius: 10%;
+    position: relative;
+    left: 10vw;
+    top: -90vw;
+}
+#hardTitle{
+    font-size: 6vw;
+    animation-name: hard_animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    left: 17vw;
+    top: -150vw;
+
+}
+#hard1{
+    font-size: 3vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position:relative;
+    left: 17vw;
+    top: -153vw;
+}
+#hard2{
+    font-size: 3vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position:relative;
+    left: 17vw;
+    top: -153vw;
+}
+#hard3{
+    font-size: 3vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position:relative;
+    left: 17vw;
+    top: -153vw;
+}
